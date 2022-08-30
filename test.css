@@ -1,0 +1,59 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: -box;
+}
+
+body {
+    border: 1px solid black;
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: space-between;
+    font-family: 'Fira Code', monospace;
+    align-items: flex-start;
+}
+
+ol {
+    padding: 0;
+    padding-top: 4.1px;
+    padding-right: 2rem;
+    counter-reset: number;
+    /* position: absolute;
+    left: -15px;
+    top: -10px; */
+    list-style: none;
+}
+
+li {
+    font-size: 1rem;
+    line-height: 24px;
+}
+
+li::before {
+    counter-increment: number;
+    content: counter(number);
+}
+
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    line-height: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.content-text {
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
