@@ -1,24 +1,24 @@
 {
-  "name": "group9-dodov.dev-clone",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build": "tailwindcss -i ./style.css -o ./css/blog.css",
-    "watch": "tailwindcss -i ./style.css -o ./css/blog.css --watch"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/289Volts/Group9-dodov.dev-clone.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/289Volts/Group9-dodov.dev-clone/issues"
-  },
-  "homepage": "https://github.com/289Volts/Group9-dodov.dev-clone#readme",
-  "devDependencies": {
-    "tailwindcss": "^3.1.8"
-  }
+	"name": "group9-dodov.dev-clone",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "tailwindcss -i ./style.css -o ./css/numbers.css",
+		"watch": "tailwindcss -i ./style.css -o ./css/numbers.css --watch"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/289Volts/Group9-dodov.dev-clone.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/289Volts/Group9-dodov.dev-clone/issues"
+	},
+	"homepage": "https://github.com/289Volts/Group9-dodov.dev-clone#readme",
+	"devDependencies": {
+		"tailwindcss": "^3.1.8"
+	}
 }
