@@ -1,3 +1,66 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+ol {
+	padding: 0;
+	padding-top: 4.1px;
+	padding-right: 2rem;
+	counter-reset: number;
+	list-style: none;
+	font-size: 1rem;
+}
+
+li {
+    color: #90908A;
+}
+
+code {
+    color: #cfcfc2;
+    font-weight: 600;
+}
+
+ol li {
+	line-height: 22px;
+}
+
+ol li::before {
+	box-sizing: border-box;
+	counter-increment: number;
+	content: counter(number);
+}
+
+ul {
+	margin-left: 1.65rem;
+}
+
+ul li::marker {
+	content: "-  ";
+	color: #a6e22e;
+}
+
+.side-scroll::-webkit-scrollbar {
+	display: none;
+}
+
+.list {
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+	clip-path: inset(0px -15px 0px 0px);
+}
+
+
+
+.noborder {
+	box-shadow: none;
+    clip-path: none;
+}
+
+.invisible {
+	line-height: 21px;
+}
+
+.dashed::after {
+	content: "------------------------------";
+	letter-spacing: 1px;
+	color: #757260;
+}
