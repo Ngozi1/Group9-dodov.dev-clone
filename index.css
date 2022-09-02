@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1e1f1c;
+}
+.parent_container{
+justify-content: center;
+align-items: center;
+display: flex; 
+border: 1px solid #272822;
+width: 50%;
+margin: 0 auto; 
+background-color: #272822;
+gap: 10px;
+}
+
+.left_side a{
+     display: block;
+     text-decoration: none;
+}
+
+h2 {
+     color: #f8f8f2;
+     font-family: 'Fira Code', monospace;
+     
+}
+p{
+    font-size: 16px;
+    color: #f8f8f2;
+    font-family: 'Fira Code', monospace;
+    
+}
+.dodovtext h2{
+    font-size: 20px;
+}
+.dodovtext h4{
+    font-size: 16px;
+    font-family: 'Fira Code', monospace;
+    color: #cfcfc2;
+}
+.dodovtext a{
+    color: #A6E22E;
+}
+.read_more a, .view_more a{
+    color: #f8f8f2;
+    font-family: 'Fira Code', monospace; 
+}
+
+.latest h2{
+    font-size: 18px;
+}
+
+.date{
+    color: #cfcfc2;
+    font-family: 'Fira Code', monospace;
+}
+
+.main_browser{
+    display: flex;
+    gap: 30px;
+}
+.read{
+     display: flex;
+     gap: 12px;
+     /* margin-top: 20px;
+     margin-bottom: 25px; */
+}
+.read_more a{
+    text-decoration: none;
+
+}
+.numbertext a, .frameworktext a, .browsertext a{
+    text-decoration: none;
+    color: #f8f8f2;
+    font-size: 18px;
+    font-family: 'Fira Code', monospace;
+}
+.nexo img{
+    width: 90px;
+    height: 90px;
+}
+.nextext a, .runtext a{
+    color: #A6E22E;
+    font-size: 16px;
+    font-family: 'Fira Code', monospace;
+}
+.forward a{
+    color: #A6E22E;
+    /* margin-top: 2px; */
+}
+.project{
+    /* margin: 20px 0 15px; */
+}
+.nexo{
+    display: flex;
+    gap: 30px;
+    /* margin-bottom: 20px; */
+}
+.nex img{
+    size: 20px;
+}
+.nextext h2{
+    /* margin-bottom: 20px; */
+}
+.last_part{
+    display: flex;
+    /* margin-top: 20px; */
+    justify-content: space-around;
+    gap: 15px;
+}
+.handles{
+    margin-left: -65px;
+    margin-right: 35px;
+    font-size: 16px;
+    font-family: 'Fira Code', monospace;
+
+    
+}
+.handles a{
+    color: #A6E22E;
+}
+.space{
+    color: #90908A;
+    font-size: 25px;
+}
