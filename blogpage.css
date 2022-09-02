@@ -96,18 +96,23 @@ h3 a:hover {
 }
 
 
-.hr_div {
-    /* display: flex; */
-    /* flex-direction: row; */
-    margin-bottom: 24px;
-    border: 1px dashed #88846f;
-    /* border-width: 0px ; */
+.hr_div:before {
+    content: "//";
+    /* margin-right: 2px; */
+    color: #88846f;
+}
+
+.hr_div:after {
+    content: "--------------------------------------------------------------";
+    color: #88846f;
+    overflow-wrap: anywhere;
+    font-variant-ligatures: none;
 }
 
 .footer {
     display: flex;
     justify-content: space-between;
-    margin-top: 48px;
+    margin-top: 24px;
 }
 
 .github {
