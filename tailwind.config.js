@@ -23,7 +23,11 @@ module.exports = {
 				code3: "#75725f",
 				dashed: "#757260",
 			},
+			screens: {
+				normal: "375px",
+				iphoneplus: "414px",
+			},
 		},
+		plugins: [],
 	},
-	plugins: [],
 };

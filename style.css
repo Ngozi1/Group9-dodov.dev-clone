@@ -64,3 +64,10 @@ ul li::marker {
 	letter-spacing: 1px;
 	color: #757260;
 }
+.dashed1::after {
+	content: "-------------------------";
+	letter-spacing: 1px;
+	color: #757260;
+}
+
+
