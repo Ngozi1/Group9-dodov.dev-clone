@@ -575,6 +575,66 @@ video {
   top: 80.7rem;
 }
 
+.top-\[22\.55\%\] {
+  top: 22.55%;
+}
+
+.top-\[29\.15\%\] {
+  top: 29.15%;
+}
+
+.top-\[37\.1\%\] {
+  top: 37.1%;
+}
+
+.top-\[42\.85\%\] {
+  top: 42.85%;
+}
+
+.top-\[49\.7\%\] {
+  top: 49.7%;
+}
+
+.top-\[53\.45\%\] {
+  top: 53.45%;
+}
+
+.top-\[56\.45\%\] {
+  top: 56.45%;
+}
+
+.top-\[56\] {
+  top: 56;
+}
+
+.top-\[56\%\] {
+  top: 56%;
+}
+
+.top-\[55\.7\%\] {
+  top: 55.7%;
+}
+
+.top-\[55\.9\%\] {
+  top: 55.9%;
+}
+
+.top-\[60\.1\%\] {
+  top: 60.1%;
+}
+
+.top-\[60\.2\%\] {
+  top: 60.2%;
+}
+
+.top-\[54\.2\%\] {
+  top: 54.2%;
+}
+
+.top-\[56\.2\%\] {
+  top: 56.2%;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -591,8 +651,8 @@ video {
   margin-top: 0.5rem;
 }
 
-.mb-\[1\.65rem\] {
-  margin-bottom: 1.65rem;
+.mb-\[1\.6rem\] {
+  margin-bottom: 1.6rem;
 }
 
 .mb-\[1\.3rem\] {
@@ -623,12 +683,100 @@ video {
   margin-bottom: 7.88rem;
 }
 
+.mb-\[1\.37rem\] {
+  margin-bottom: 1.37rem;
+}
+
+.mb-\[1\.43rem\] {
+  margin-bottom: 1.43rem;
+}
+
+.mb-\[7\.9rem\] {
+  margin-bottom: 7.9rem;
+}
+
+.mb-\[67\%\] {
+  margin-bottom: 67%;
+}
+
+.mb-\[2\.6rem\] {
+  margin-bottom: 2.6rem;
+}
+
+.mb-\[1\.1rem\] {
+  margin-bottom: 1.1rem;
+}
+
+.mb-\[46\.5\%\] {
+  margin-bottom: 46.5%;
+}
+
+.mb-\[53\.4\%\] {
+  margin-bottom: 53.4%;
+}
+
 .mr-2 {
   margin-right: 0.5rem;
 }
 
+.mb-\[70\%rem\] {
+  margin-bottom: 70%rem;
+}
+
+.mb-\[70\%\] {
+  margin-bottom: 70%;
+}
+
+.mb-\[90\%\] {
+  margin-bottom: 90%;
+}
+
+.mb-\[100\%\] {
+  margin-bottom: 100%;
+}
+
+.mb-\[\] {
+  margin-bottom: ;
+}
+
+.mb-\[30rem\] {
+  margin-bottom: 30rem;
+}
+
+.mb-\[0rem\] {
+  margin-bottom: 0rem;
+}
+
+.mb-\[25rem\] {
+  margin-bottom: 25rem;
+}
+
+.mb-\[20rem\] {
+  margin-bottom: 20rem;
+}
+
+.mb-\[rem\] {
+  margin-bottom: rem;
+}
+
+.mb-\[19\.3rem\] {
+  margin-bottom: 19.3rem;
+}
+
+.mb-\[19\.7rem\] {
+  margin-bottom: 19.7rem;
+}
+
+.mb-\[19\.75rem\] {
+  margin-bottom: 19.75rem;
+}
+
 .box-border {
   box-sizing: border-box;
+}
+
+.block {
+  display: block;
 }
 
 .flex {
@@ -717,6 +865,10 @@ video {
   padding-right: 0.5rem;
 }
 
+.pl-\[1\.8rem\] {
+  padding-left: 1.8rem;
+}
+
 .text-right {
   text-align: right;
 }
@@ -748,8 +900,16 @@ video {
   line-height: 1.75rem;
 }
 
+.text-\[1\.2rem\] {
+  font-size: 1.2rem;
+}
+
 .font-bold {
   font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 500;
 }
 
 .font-black {
@@ -762,6 +922,10 @@ video {
 
 .leading-\[24px\] {
   line-height: 24px;
+}
+
+.leading-\[22\.5px\] {
+  line-height: 22.5px;
 }
 
 .text-bodytext {
@@ -784,6 +948,36 @@ video {
   color: rgb(166 226 46 / var(--tw-text-opacity));
 }
 
+.text-code3 {
+  --tw-text-opacity: 1;
+  color: rgb(117 114 95 / var(--tw-text-opacity));
+}
+
+.text-dashed {
+  --tw-text-opacity: 1;
+  color: rgb(117 114 96 / var(--tw-text-opacity));
+}
+
+.text-orange-400 {
+  --tw-text-opacity: 1;
+  color: rgb(251 146 60 / var(--tw-text-opacity));
+}
+
+.text-purple-500 {
+  --tw-text-opacity: 1;
+  color: rgb(168 85 247 / var(--tw-text-opacity));
+}
+
+.text-blue-300 {
+  --tw-text-opacity: 1;
+  color: rgb(147 197 253 / var(--tw-text-opacity));
+}
+
+.text-pink-500 {
+  --tw-text-opacity: 1;
+  color: rgb(236 72 153 / var(--tw-text-opacity));
+}
+
 .underline {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
@@ -796,6 +990,15 @@ ol {
   counter-reset: number;
   list-style: none;
   font-size: 1rem;
+}
+
+li {
+  color: #90908A;
+}
+
+code {
+  color: #cfcfc2;
+  font-weight: 600;
 }
 
 ol li {
@@ -813,7 +1016,7 @@ ul {
 }
 
 ul li::marker {
-  content: '-  ';
+  content: "-  ";
   color: #a6e22e;
 }
 
@@ -822,11 +1025,23 @@ ul li::marker {
 }
 
 .list {
-  box-shadow: 0 0 4px rgba(0,0,0,0.3);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   -webkit-clip-path: inset(0px -15px 0px 0px);
           clip-path: inset(0px -15px 0px 0px);
 }
 
+.noborder {
+  box-shadow: none;
+  -webkit-clip-path: none;
+          clip-path: none;
+}
+
 .invisible {
   line-height: 21px;
+}
+
+.dashed::after {
+  content: "------------------------------";
+  letter-spacing: 1px;
+  color: #757260;
 }

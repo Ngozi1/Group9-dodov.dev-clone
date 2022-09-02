@@ -20,6 +20,8 @@ module.exports = {
 				accenthover: "#4e94ce",
 				code1: "#3E3D32",
 				code2: "#22231e",
+				code3: "#75725f",
+				dashed: "#757260",
 			},
 		},
 	},
