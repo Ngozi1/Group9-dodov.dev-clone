@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Code', monospace;
+}
+
+body {
+    background-color: #1e1f1c;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: #272822;
+    max-width: 800px;
+    margin: 96px auto;
+    line-height: 24px;
+    padding-bottom: 200px;
+}
+
+h1,
+h3 a,
+p {
+    color: #f8f8f2;
+}
+
+/* Numbers */
+.numbers {
+    padding-top: 32px;
+    padding-left: 48px;
+    color: #90908a;
+    text-align: right;
+    line-height: 24px;
+}
+
+/* Header */
+.text_content {
+    padding: 32px 78px 0 24px;
+}
+
+.header h1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: -1px;
+}
+
+.small_text {
+    color: #cfcfc2;
+    font-size: 13px;
+    margin-bottom: 24px;
+}
+
+.header_text {
+    margin-bottom: 24px;
+}
+
+.p_text {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+/* First Section */
+.first_section {
+    display: flex;
+}
+
+h3 a{
+    text-decoration: none;
+    font-weight: 900;
+}
+
+h3 a:hover {
+    color: #4e94ce ;
+}
+
+.images {
+    margin-right: 20px;
+}
+
+.first_section .p_text {
+    margin-bottom: 24px;
+}
+
+/* Second Section */
+
+.scnd_sctn_p_text {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.hr_div {
+    /* display: flex; */
+    /* flex-direction: row; */
+    margin-bottom: 24px;
+    border: 1px dashed #88846f;
+    /* border-width: 0px ; */
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.github {
+    list-style-type: none;
+}
+.footer ul{
+    display: flex;
+    color: #a6e22e;
+    /* margin-right: 30px; */
+}
+
+.footer ul li {
+    margin-right: 30px;
+    /* color: #a6e22e; */
+    color: #ffffff;
+}
+
+.footer ul li a {
+    color: #a6e22e;
+}
+
+.footer ul li a:hover {
+    color: #4e94ce;
+}
+
+.monokai {
+    margin-left: 150px;
+}
+
+.monokai a{
+    color: #ffffff;
+    text-decoration: none;
+}
